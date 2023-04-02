@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelo Garante</title>
+<link rel="stylesheet" href="./CSS/style.css">
+<link href="https://fonts.cdnfonts.com/css/lt-binary-neue" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="/img/logo.png" class="logo" >
+            <ul class="nav-list">
+                <li><a href="#"><span class="number">01.</span>Home</a></li>
+                <li><a href="#"><span class="number">02.</span>About</a></li>
+                <li><a href="#"><span class="number">03.</span>Projects</a></li>
+                <li><a href="#"><span class="number">04.</span>Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi My name is <br><span class="number">Angelo Garante</span> from Italy.</h1>
+        </div>
+        
+        <p class="pagination">
+            I'm a quick learner and work well both independently and in teams. I have a strong work ethic, attention to detail, and a keen eye for design, which I believe are essential qualities for a successful full-stack developer.
+        </p>
+         </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/img/photoProfile.jpg" alt="me">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-head">About Me</h1>
+                        <h3>a student of<span class="number">
+                            CareerFoundry's Fullstack Developer program.</span> I'm passionate about web development and have been dedicatedly learning various programming languages such as JavaScript, HTML, and CSS, as well as database management systems like MySQL and MongoDB.</h3>
+                            <div class="tab-tables">
+                                <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                                <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                                <div class="tab-links" onclick="opentab('education')">Education</div>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Frontend</span><br>Web app frontend development</li>
+                                    <li><span>Backend</span><br>Web app backend development</li>
+                                    <li><span>Mobile App</span><br>Mobile app development</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>CareerFoundry</span><br>Reactjs - Angular - TS - vanilla JS</li>
+                                    <li><span>CareerFoundry</span><br>NoSql MongoDB - Express - Firebase</li>
+                                    <li><span>CareerFoundry</span><br>React Native - Expo - Android Studio</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Liceo Scientifico</span><br>2009 - Diploma in Science and IT</li>
+                                    <li><span>CareerFoundry</span><br> Ongoing - Fullstack Developer Program</li>
+                            
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+
+         </div>
+         <div id="projects">
+            <div class="container">
+                <div class="sub-head">Projects</div>
+                <div class="project-list">
+                 <div class="project">
+                    <img src="img/MongoDB.png">
+              <div class="description">
+                <h3>Movie API</h3>
+                <p>API developed with express and mongodDB , provides endpoint for various CRUD operations and use JWT tokens security, data about genre, director and movie.</p>
+               <div class="links">
+                <a href="https://github.com/AngeloGarante/movie_api" target="_blank"><img src="img/github.png" style="width: 40px;" class="github" alt=""></a> 
+            </div>    
+            </div>
+             
+                 </div>
+                 <div class="project">
+                    <img src="img/React.png">
+              <div class="description">
+<h3>myFLix React</h3>
+<p>Client side app for Movie API , using React, Redux, functional components , react bootstrap offers various data visualization and user interactions. </p>
+<div class="links">
+<a href="https://github.com/AngeloGarante/MyFlix" target="_blank"><img src="img/github.png" style="width: 40px;" class="github" alt=""></a> 
+<a href="https://myflixangelogarante.netlify.app/" target="_blank"><img src="img/external-link.png" style="width: 40px;"></a>
+</div>
+</div>
+                 </div>
+                 <div class="project">
+                 <img src="img/Angular.png">
+              <div class="description">
+                <h3>myFLix Angular</h3>
+                <p>Client side app for Movie API, provides descriptions and info about movies, genre, author have multiple user functionalities, angular materials implemented. </p>
+                <div class="links">
+                <a href="https://github.com/AngeloGarante/myFlix-angular-client" target="_blank"><img src="img/github.png" style="width: 40px;" class="github" alt=""></a>  
+                <a href="https://angelogarante.github.io/myFlix-angular-client/welcome" target="_blank"><img src="img/external-link.png" style="width: 40px;"></a>
+            </div>
+            </div>
+                 </div>
+                 <div class="project">
+                    <img src="img/MeetApp.png">
+              <div class="description">
+<h3>Meet-App</h3>
+<p>Using google API to offers a simple app calendar to manage events, developed with TDD , unit testing and serverless functions from Amazon Service AWS.</p>
+<div class="links">
+<a href="https://github.com/AngeloGarante/meet-app" target="_blank"><img src="img/github.png" style="width: 40px;" class="github" alt=""></a>              
+<a href="https://angelogarante.github.io/meet-app/" target="_blank"><img src="img/external-link.png" style="width: 40px;"></a>
+</div>
+</div>
+                 </div>
+                 <div class="project">
+                    <img src="img/chat-app.png">
+              <div class="description">
+                <h3>Chat App</h3>
+                <p>Native app developed using expo, react-native and android studio, integrated with google firebase to be independently providing a simple chat.</p>   
+                <div class="links">
+                <a href="https://github.com/AngeloGarante/chat-app" target="_blank"><img src="img/github.png" style="width: 40px;" class="github" alt=""></a>      
+            </div>
+            </div>
+                 </div>
+                  
+                </div>
+            </div>
+         </div>
+         <!----Contact-->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-head">Contact <Menu></Menu></h1>
+                            <p>angelogarante@outlook.com</p>
+                            <p>Tel +49 1575 2105080</p>
+                            <div class="social-icons">
+                               <a href="https://twitter.com/GaranteAngelo" target="_blank"><img src="img/icons8-twitter-48.png" style="width: 40px;"></a>
+                            </div>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="@youremail.com" required>
+                                <textarea name="Message" rows="6" placeholder="write your message"></textarea>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                </div>
+            </div>
+         </div>
+         <script>
+            const tablinks = document.getElementsByClassName('tab-links')
+const tabcontents = document.getElementsByClassName('tab-contents')
+
+function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link")
+    }
+    for (tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+         </script>
+</body>
+</html>
